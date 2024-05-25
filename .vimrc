@@ -76,12 +76,14 @@ set wildignore=*.docx,*.jpg,*.png,*.gif,*.pdf,*.pyc,*.exe,*.flv,*.img,*.xlsx
   call plug#begin('~/.vim/plugged')
     Plug 'dense-analysis/ale'
     Plug 'preservim/nerdtree'
+    Plug 'vim-airline/vim-airline'
   call plug#end()
 " }}}
 
 " MAPEAMENTO --------------------------------------------------------------- {{{
   noremap jj <esc> 
   nnoremap <F3> :NERDTreeToggle<cr>
+  map <c-t> :bel term ++rows=12<cr>i
 " }}}
 
 " VIMSCRIPT -------------------------------------------------------------- {{{
@@ -102,18 +104,5 @@ set wildignore=*.docx,*.jpg,*.png,*.gif,*.pdf,*.pyc,*.exe,*.flv,*.img,*.xlsx
 " }}}
 
 " LINHA DE STATUS ----------------------------------------------------------- {{{
-  " Limpa a barra de status quando o vimrc é recarregado.
-  set statusline=
-
-  " Lado esquerdo da barra de status.
-  set statusline+=\ %F\ %M\ %Y\ %R
-
-  " Utiliza um divisor para separar o lado esquerdo do lado direito.
-  set statusline+=%=
-
-  " Lado direito da barra de status.
-  set statusline+=\ ascii:\ %b\ hex:\ 0x%B\ row:\ %l\ col:\ %c\ percent:\ %p%%
-
-  " Mostra a barra de status na penúltima linha.
-  set laststatus=2
+  let g:airline#extensions#tabline#enabled = 1  
 " }}}
