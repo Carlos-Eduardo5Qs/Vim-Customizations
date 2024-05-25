@@ -9,13 +9,15 @@ Antes de usar estas configurações, você precisa ter o Vim instalado no seu si
 ### Ubuntu/Debian
 
 ```sh
-  sudo apt update
-  sudo apt install vim
+sudo apt update
+```
+```sh
+sudo apt install vim
 ```
 ### Fedora
 
 ```sh
-  sudo dnf install vim
+sudo dnf install vim
 ```
 ### CentOS/RHEL
 
@@ -26,7 +28,7 @@ Antes de usar estas configurações, você precisa ter o Vim instalado no seu si
 ### macOS
 
 ```sh
-  brew install vim
+brew install vim
 ```
 
 ## Clonando o Repositorio e Configurando o Vim 
@@ -36,20 +38,22 @@ Para usar estas configurações do vim, siga os passos logo abaixo:
 1. Clone o repositório:
 
 ```sh
-  https://github.com/Carlos-Eduardo5Qs/Vim-Customizations.git
+https://github.com/Carlos-Eduardo5Qs/Vim-Customizations.git
 ```
 
 2. Navegue até o diretório clonado:
 
 ```sh
-  cd Vim-Customizations
+cd Vim-Customizations
 ```
 
 3. Mova os arquivos do repositório para a raiz do seu sistema:
 
 ```sh
-  mv vim/* ~/.vim/
-  mv .vimrc ~/.vimrc
+mv vim/* ~/.vim/
+```
+```sh
+mv .vimrc ~/.vimrc
 ```
 
 ## Instalação do Esquema de Cores
@@ -57,8 +61,10 @@ Para usar estas configurações do vim, siga os passos logo abaixo:
 Para instalar o esquema de cores necessário para a configuração do Vim, execute os seguintes comandos:
 
 ```sh
-  cd ~/.vim/colors
-  curl -o molokai.vim https://raw.githubusercontent.com/tomasr/molokai/master/colors/molokai.vim
+cd ~/.vim/colors
+```
+```sh
+curl -o molokai.vim https://raw.githubusercontent.com/tomasr/molokai/master/colors/molokai.vim
 ```
 
 Esses comandos irão baixar e instalar o esquema de cores molokai no seu diretório de cores do Vim.
