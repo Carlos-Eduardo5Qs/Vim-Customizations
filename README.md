@@ -38,7 +38,7 @@ Para usar estas configurações do vim, siga os passos logo abaixo:
 1. Clone o repositório:
 
 ```sh
-https://github.com/Carlos-Eduardo5Qs/Vim-Customizations.git
+git clone https://github.com/Carlos-Eduardo5Qs/Vim-Customizations.git
 ```
 
 2. Navegue até o diretório clonado:
