@@ -8,10 +8,10 @@ Antes de usar estas configurações, você precisa ter o Vim instalado no seu si
 
 ### Ubuntu/Debian
 
-´´´sh
+```sh
   sudo apt update
   sudo apt install vim
-´´´
+```
 ### Fedora
 
 ```sh
