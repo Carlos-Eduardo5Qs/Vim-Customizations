@@ -69,7 +69,7 @@ Este repositório inclui um arquivo `.vimrc` configurado para usar o gerenciador
 3. Aguarde até que a instalação dos plugins seja concluída.
 4. Feche e reabra o Vim para que as alterações tenham efeito.
 
-O comando `:PlugInstall` instalará todos os plugins listados no arquivo `.vimrc`. Você pode encontrar mais informações sobre o Vim-Plug em [vim-plug.github.io](https://vim-plug.github.io/).
+O comando `:PlugInstall` instalará todos os plugins listados no arquivo `.vimrc`.
 
 Executando esses comandos seu vim estará pronto para uso (o゜▽゜)o☆
 
