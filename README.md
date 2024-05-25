@@ -36,7 +36,7 @@ sudo dnf install vim
 brew install vim
 ```
 
-## Clonando o Repositorio e Configurando o Vim 
+## Clonando o Repositorio
 
 Para usar estas configurações do vim, siga os passos logo abaixo:
 
@@ -60,6 +60,16 @@ cp -R .vim/ ~/
 ```sh
 cp .vimrc ~/
 ```
+## Instalando Plugins do Vim
+
+Este repositório inclui um arquivo `.vimrc` configurado para usar o gerenciador de plugins Vim-Plug. Para instalar os plugins, siga estes passos:
+
+1. Abra o Vim digitando `vi` no terminal.
+2. No modo normal do Vim, digite `:PlugInstall` e pressione Enter.
+3. Aguarde até que a instalação dos plugins seja concluída.
+4. Feche e reabra o Vim para que as alterações tenham efeito.
+
+O comando `:PlugInstall` instalará todos os plugins listados no arquivo `.vimrc`. Você pode encontrar mais informações sobre o Vim-Plug em [vim-plug.github.io](https://vim-plug.github.io/).
 
 Executando esses comandos seu vim estará pronto para uso (o゜▽゜)o☆
 
