@@ -1,6 +1,11 @@
 # Bem-vindo às Minhas Configurações do Vim
 
-Obrigado por usar minhas configurações personalizadas do Vim! Este repositório está configurado para proporcionar uma experiência otimizada com o editor Vim, incluindo um esquema de cores agradável e uma configuração organizada.
+Essas são minhas configurações que utilizo no meu Vim! Criei este repositório para ficar fácil eu configurar meu ambiente caso minha máquina seja danificada, ou , se eu precisar programar em um servidor que tenha apenas um terminal disponível sem a presença de uma interface gráfica o(*￣▽￣*)ブ
+
+## Requisitos
+
+1. Linux
+2. Git
 
 ## Instalação do Vim
 
