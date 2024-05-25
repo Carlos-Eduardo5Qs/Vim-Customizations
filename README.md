@@ -1,6 +1,6 @@
 # Bem-vindo às Minhas Configurações do Vim
 
-Essas são minhas configurações que utilizo no meu Vim! Criei este repositório para ficar fácil eu configurar meu ambiente caso minha máquina seja danificada, ou , se eu precisar programar em um servidor que tenha apenas um terminal disponível sem a presença de uma interface gráfica o(*￣▽￣*)ブ
+Essas são minhas configurações que utilizo no meu Vim! Criei este repositório para ficar mais fácil eu configurar meu Vim caso aconteça algo inesperado com a minha máquina , ou , se eu precisar programar em um servidor que tenha apenas um terminal disponível sem a presença de uma interface gráfica. Fique a vontade para utilizar minhas configurações se você quiser o(*￣▽￣*)ブ
 
 ## Requisitos
 
