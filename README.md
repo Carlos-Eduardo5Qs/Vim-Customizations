@@ -47,27 +47,16 @@ git clone https://github.com/Carlos-Eduardo5Qs/Vim-Customizations.git
 cd Vim-Customizations
 ```
 
-3. Mova os arquivos do repositório para a raiz do seu sistema:
+3. Copie os arquivos do repositório para a raiz do seu sistema:
 
 ```sh
-mv vim/* ~/.vim/
+cp -R .vim/ ~/
 ```
 ```sh
-mv .vimrc ~/.vimrc
+cp .vimrc ~/
 ```
 
-## Instalação do Esquema de Cores
-
-Para instalar o esquema de cores necessário para a configuração do Vim, execute os seguintes comandos:
-
-```sh
-cd ~/.vim/colors
-```
-```sh
-curl -o molokai.vim https://raw.githubusercontent.com/tomasr/molokai/master/colors/molokai.vim
-```
-
-Esses comandos irão baixar e instalar o esquema de cores molokai no seu diretório de cores do Vim.
+Executando esses comandos seu vim estará pronto para uso (o゜▽゜)o☆
 
 ## Agradecimento
 
